@@ -1,0 +1,35 @@
+{
+	"name": "bananafit_server_v2",
+	"version": "0.0.1",
+	"description": "",
+	"main": "app.js",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BrocasArea/bananafit_server_v2.git"
+	},
+	"author": "Brocas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BrocasArea/bananafit_server_v2/issues"
+	},
+	"homepage": "https://github.com/BrocasArea/bananafit_server_v2#readme",
+	"devDependencies": {
+		"babel-eslint": "^7.2.3",
+		"eslint": "^4.2.0",
+		"eslint-config-airbnb-base": "^11.2.0"
+	},
+	"dependencies": {
+		"jsonwebtoken": "^7.4.1",
+		"lodash": "^4.17.4",
+		"redis": "^2.7.1",
+		"koa-router": "^7.2.1",
+		"config": "^1.26.1",
+		"engined": "0.0.2",
+		"engined-http": "0.0.3",
+		"engined-mysql": "0.0.1"
+	}
+}
